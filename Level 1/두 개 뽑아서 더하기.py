@@ -5,4 +5,4 @@ def solution(numbers):
             snum = numbers[i] + numbers[j]
             if i != j:
                 result.append(snum)
-    return list(sorted(set(result)))
+    return sorted(set(result))
